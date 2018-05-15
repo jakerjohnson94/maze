@@ -1,0 +1,26 @@
+:root{
+  --cellHeight: 50px;
+}
+
+body,html{
+  height:100%;
+  margin: 0;
+}
+#player { 
+
+  height:100px; 
+  /* position: absolute;  */
+
+ 
+ }
+ .W{
+   
+   background-color: black;
+ }
+ .row{
+   display: flex;
+ }
+
+ .free-space{
+  
+ }
