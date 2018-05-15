@@ -1,26 +1,55 @@
-:root{
+:root {
   --cellHeight: 50px;
 }
-
-body,html{
-  height:100%;
-  margin: 0;
+.W{
+  background-image: url(blueBlock.png);
+  background-size: cover;
 }
-#player { 
+.F{
+  background-image: url(http://pixelartmaker.com/art/c0e1e34c1b64249.png);
+  background-size: cover;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  background-image: url(https://media.giphy.com/media/j7i6ULcXbfH44/source.gif);
+  background-size: cover;
+   background-repeat: repeat-x;
+}
 
-  height:100px; 
-  /* position: absolute;  */
+#player {
+  height: 100px;
+  /* position: absolute; */
+}
 
- 
- }
- .W{
-   
-   background-color: black;
- }
- .row{
-   display: flex;
- }
+.W {
+  background-color: black;
+}
 
- .free-space{
-  
- }
+.row {
+  display: flex;
+}
+
+@keyframes slideRight {
+  from {margin-left: -40px;}
+  to {margin-left: 0;}
+}
+.slideRight {animation: slideRight .5s ease-out;}
+
+@keyframes slideLeft {
+  from {margin-left: 40px;}
+  to {margin-left: 0;}
+}
+.slideLeft {animation: slideLeft .5s ease-out;}
+
+@keyframes slideUp {
+  from {margin-top: 40px;}
+  to {margin-top: 0;}
+}
+.slideUp {animation: slideUp .5s ease-out;}
+
+@keyframes slideDown {
+  from {margin-top: -30px;}
+  to {margin-top: 0;}
+}
+.slideDown {animation: slideDown .5s ease-out;}
